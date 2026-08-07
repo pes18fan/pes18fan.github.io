@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Hi!</h1>
+
+<p>I'm a college student studying Computer Engineering.</p> 
+
+<p>I spend a lot of my time writing random code projects. You can check them
+    out over on my <a href="https://github.com/pes18fan">GitHub</a>.</p>
+
+<p>I write the odd article on this site from time to time as well. You can take
+    a look at them <a href="{{ get_url(path='@/posts/_index.md') }}">here</a>.</p>
+
+<p>Outside of this website you can contact me by email at <a href="#">pes18fan
+    [at] disr [dot] it.</a></p>
+{% endblock content %}

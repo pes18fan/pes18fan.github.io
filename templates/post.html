@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>{{ page.title }}</h1>
+<p>
+    <strong>{{ page.date }}</strong>
+</p>
+
+{{ page.content | safe }}
+
+<p>Read <a href="{{ get_url(path='@/posts/_index.md') }}">another post</a>?</p>
+
+{% endblock content %}
