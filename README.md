@@ -1,6 +1,6 @@
 # pes18fan.github.io
 
-Personal site. Based on the [zola](https://getzola.org) SSG.
+Personal site. Based on [zola](https://getzola.org).
 
 The code for this site is under the MIT License, and the content of the site is
 under CC-BY-NC-SA 4.0.
