@@ -10,7 +10,7 @@ written by Bob Nystrom, intrigued by the concept of PL design and compilers.
 As the book intended, I worked parallely on writing the two interpreters designed 
 in the book over the course of reading it. The first one, `jlox`, I designed
 as a Crystal interpreter named `kaze`. I've talked about in a previous blog,
-where I described [how one could design a language to avoid semicolon terminators](/posts/no_semicolons).
+where I described [how one could design a language to avoid semicolon terminators](/posts/no-semicolons).
 But the second interpreter, `clox`, is where it got interesting for me. My
 implementation was now written in Odin, named [`zen`](https://github.com/pes18fan/zen).
 
