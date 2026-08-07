@@ -1,3 +1,41 @@
+/*
+This website uses the "Go Mono" font. The license for the use of this font 
+follows:
+
+Copyright 2009 The Go Authors.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+   * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+   * Neither the name of Google LLC nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+@font-face {
+    font-family: "Go Mono";
+    src: url('/font/Go-Mono.ttf') format('truetype');
+    font-display: swap;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -9,53 +47,50 @@
   --accent-color: #4fefcade;
   --default-padding: 10px;
 
-  font-family: monospace;
+  font-family: "Go Mono", monospace;
   font-size: 12pt;
 }
 
 body {
   background-color: var(--background-color);
   color: var(--text-color);
+  padding: var(--default-padding) 280px;
+  line-height: 1.8;
 
-  main {
-    padding: var(--default-padding) 360px;
-    margin: 5px;
+  * {
+    padding: var(--default-padding) 0;
+  }
 
-    * {
-      padding: var(--default-padding) 0;
-    }
+  pre {
+    overflow-x: auto;
+    white-space: pre;
+    padding: var(--default-padding);
+  }
 
-    p {
-      line-height: 2;
-    }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
 
-    pre {
-      overflow-x: auto;
-      white-space: pre;
-      padding: var(--default-padding);
-    }
+  ul {
+    list-style-position: inside;
+  }
 
-    img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 90%;
-    }
+  a {
+    color: var(--accent-color);
+  }
 
-    ul {
-      list-style-position: inside;
+  footer {
+    padding: var(--default-padding);
+    border-top: 1px solid #fefefed0;
+    font-size: 10pt;
+    text-align: center;
+    color: #fefefeb0;
+  }
 
-      li {
-        padding: 6px 0;
-      }
-    }
-
-    a {
-      color: var(--accent-color);
-    }
-
-    @media (max-width: 1200px) {
-      padding: var(--default-padding) 180px;
-    }
+  @media (max-width: 1200px) {
+    padding: var(--default-padding) 140px;
   }
 }
