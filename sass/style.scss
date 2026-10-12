@@ -45,7 +45,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   --background-color: #141414;
   --text-color: #fefefe;
   --accent-color: #4fefcade;
-  --default-padding: 10px;
+  --default-padding: 0.5rem;
 
   font-family: "Go Mono", monospace;
   font-size: 12pt;
@@ -55,9 +55,9 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   padding: var(--default-padding) 280px;
-  line-height: 1.8;
+  line-height: 1.9;
 
-  * {
+  h1, h2, p, pre, ul {
     padding: var(--default-padding) 0;
   }
 
@@ -76,15 +76,42 @@ body {
 
   ul {
     list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: var(--default-padding);
   }
 
   a {
     color: var(--accent-color);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  header {
+    margin: var(--default-padding) 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .links {
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+    }
+  }
+
+  main {
+    margin: var(--default-padding) 0;
   }
 
   footer {
-    padding: var(--default-padding);
-    border-top: 1px solid #fefefed0;
+    margin: var(--default-padding) 0;
+    border-top: 1px solid #fefefeb0;
     font-size: 10pt;
     text-align: center;
     color: #fefefeb0;
