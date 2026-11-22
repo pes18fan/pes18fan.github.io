@@ -16,31 +16,31 @@ for, weirdly enough.
 
 # AI in programming
 
-This has been one of the focal points of discussion in the space ever since GPT-3.5
-came out igniting the whole thing. Many people, well known and indie, have put 
-out their views over time on the whole thing. Some have been claiming from the
-start that it is the goldmine and will take all jobs, some have kept an air
-of caution, and some have been negative of it from the start.
+This has been one of the focal points of discussion in the space ever since
+GPT-3.5 came out igniting the whole thing. Many people, well known and indie,
+have put out their views over time on the whole thing. Some have been claiming
+from the start that it is the goldmine and will take all jobs, some have kept
+an air of caution, and some have been negative of it from the start.
 
 After using AI tools for some programming work in my own personal projects and
-just for learning stuff and research in general, I have come to realize that
-AI CAN be a useful tool but it is really, really easy to misuse and completely
-mess everything up. One case where it all came crashing down was my own
-project [zen](https://github.com/pes18fan/zen), a little programming language;
-I took quite a lot of AI help during the project for design as well as code in a 
-really large PR I completed recently to add typechecking to the language, 
-admittedly quite irresponsibly and impulsively. In the end it just resulted in 
+just for learning stuff and research in general, I have come to realize that AI
+CAN be a useful tool but it is really, really easy to misuse and completely
+mess everything up. One case where it all came crashing down was my own project
+[zen](https://github.com/pes18fan/zen), a little programming language; I took
+quite a lot of AI help during the project for design as well as code in a
+really large PR I completed recently to add typechecking to the language,
+admittedly quite irresponsibly and impulsively. In the end it just resulted in
 the whole thing crashing down and the PR ending up merged in a poorly designed,
-incomplete and probably even somewhat buggy state, I just had to merge the thing
-because it went on for too long. In the end I just archived the project because
-I was much too dissatisfied with what the PR left of the project.
+incomplete and probably even somewhat buggy state, I just had to merge the
+thing because it went on for too long. In the end I just archived the project
+because I was much too dissatisfied with what the PR left of the project.
 
 One problem I have really faced with AI in programming is that it is quite
-difficult to get it to do just what you want. Every time you attempt to use
-it to implement something; there always seems to be one part that is not quite
+difficult to get it to do just what you want. Every time you attempt to use it
+to implement something; there always seems to be one part that is not quite
 right or one that you just don't feel good about, if you know what I mean.
-Trying to get the agent to fix it just adds fuel to the fire in many cases.
-The same is often true for design and working on architectural ideas.
+Trying to get the agent to fix it just adds fuel to the fire in many cases. The
+same is often true for design and working on architectural ideas.
 
 The main problem for me though is the fact that you cannot follow what is going
 on and it makes you lose track of the entire project. The AI might have saved
@@ -75,27 +75,27 @@ out if an explanation does not look right, but if not then this is a rather big
 problem.
 
 Solving this would be based on the specific thing you are using, for ChatGPT it
-is just expliticlty indicating that you want it to look something up. It's a bit
+is just explicitly indicating that you want it to look something up. It's a bit
 annoying but it works.
 
 # In general
 
-I think that it is better for all of us if AI moves to local devices. Given
-how much personal information we give out to these models every day, which are
+I think that it is better for all of us if AI moves to local devices. Given how
+much personal information we give out to these models every day, which are
 almost always running on some server in the middle of nowhere with god knows
 what's going on; it is imperative that this is made a priority. 
 
-Therefore it makes me rather dissatisfied to see all the AI teams just focusing 
+Therefore it makes me rather dissatisfied to see all the AI teams just focusing
 on making the largest models out there with the most parameters. I will admit,
-I am not particularly knowledgable in the field of AI; so perhaps th researchers
-know more about why this is being done. Regardless though I am not convinced
-that this is the right direction to go. We cannot be continuing this trend and
-allowing dumb basic chats to be consuming ridiculous amounts of energy and
-causing so many real-world problems.
+I am not particularly knowledgable in the field of AI; so perhaps the
+researchers know more about why this is being done. Regardless though I am not
+convinced that this is the right direction to go. We cannot be continuing this
+trend and allowing dumb basic chats to be consuming ridiculous amounts of
+energy and causing so many real-world problems.
 
 The direction should be on how we can make this whole thing more efficient. I
-like how some labs like DeepSeek make this more of a focus. The other labs should
-watch and learn. The ideal should be to have highly capable AI that can run
-perfectly fine even on just our mobile phones without any of the unnecessary
-network requests. Ideally cloud AI should not be a thing. I hope this is a future
-that can eventually come to fruition.
+like how some labs like DeepSeek make this more of a focus. The other labs
+should watch and learn. The ideal should be to have highly capable AI that can
+run perfectly fine even on just our mobile phones without any of the
+unnecessary network requests. Ideally cloud AI should not be a thing. I hope
+this is a future that can eventually come to fruition.
